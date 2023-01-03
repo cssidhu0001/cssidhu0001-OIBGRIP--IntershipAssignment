@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap&family=Ubuntu:wght@300&display=swap&family=Source+Sans+Pro:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.main-container-Wrapper-About-Portfolio {
+    margin: 2.5rem;
+}
+
+.portfolio-page-heading-Para {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.horizontal-Line-portfolio {
+    width: 5%;
+    background-color: red;
+    margin: 1rem 1rem 1rem 0rem;
+    height: .2rem;
+}
+
+.portfolio-page-Quote-Para {
+    margin: .5rem .5rem .5rem 0rem;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+}
+
+.pageEnd-horizontal-Line-portfolio {
+    width: 100%;
+    background-color: rgb(232, 232, 233);
+    margin: 1rem 1rem 1rem 0rem;
+    height: .05rem;
+}
+
+.head-name-under-portfolio {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.head-name-under-portfolio1 {
+    display: flex;
+    flex-direction: row;
+}
+.head-name-under-portfolio2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-heads-hyperlinks {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: rgb(75, 75, 75);
+}
+
+.portfolio-heads-hyperlinks .title-head {
+    margin: .5rem;
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.portfolio-heads-hyperlinks .title-head:active {
+    margin: 1rem;
+    color: #e71d36;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+
+.portfolio-heads-hyperlinks .title-head:hover {
+    margin: .5rem;
+    color: rgb(24, 24, 24);
+    cursor: pointer;
+}
+
+#title-head-all {
+    border-bottom: 2px solid black;
+}
+
+.show-more-less {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+
+/* .show-more-less {
+    color: rgb(23, 2, 208);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid #151B25;
+} */
+
+.show-more-para,
+.show-less-para {
+    background-color: white;
+    border: 2px solid #151B25;
+    padding: .5rem;
+    text-transform: uppercase;
+}
+
+.show-more-para:hover,
+.show-less-para:hover {
+    background-color: #424752;
+    color: white;
+    border: 2px solid #262d38;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.show-less-para {
+    display: none;
+}
+
+#hide-certificate,
+#hide-project,
+#certificate-maincontainer-wrapper,
+#achievement-maincontainer-wrapper,
+#workshop-maincontainer-wrapper {
+    display: none;
+}
+
+
+/* Responsiveness Media Queries */
+
+@media (max-width:500px){
+    .portfolio-page-Quote-Para {
+        font-size: 1.2rem;
+    }    
+    .head-name-under-portfolio {
+       flex-direction: column;
+       margin-bottom: .7rem;
+    }
+ .portfolio-heads-hyperlinks{
+            margin:.5rem .0rem .5rem 0rem;
+        }
+    .span-portfolio-achievements{
+        display: none;   
+    }
+}

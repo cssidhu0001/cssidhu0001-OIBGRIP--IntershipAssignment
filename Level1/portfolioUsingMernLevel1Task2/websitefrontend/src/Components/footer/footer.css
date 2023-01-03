@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap&family=Ubuntu:wght@300&display=swap&family=Source+Sans+Pro:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Open+Sans&family=WindSong:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+.pageTop-horizontal-Line-Footer-topmargin{
+    height: 2rem;
+
+}
+.footer-main-container-wrapper{
+    height: 20rem;
+    width: 100%;
+    background-color:#2b3546;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pageTop-horizontal-Line-Footer{
+    width: 100%;
+    background-color:rgb(50, 50, 65);
+    height: .1rem;
+    margin-bottom: .3rem;
+
+}
+
+.footer-head-para{
+    font-size: 3rem;
+    font-family: 'Ephesis', 'cursive';
+    font-weight:500;
+    color: whitesmoke;
+
+}
+.followup-Links-UL{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+.followup-Links-UL{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+
+.follow-Hyperlink>i,.follow-Hyperlink1>i,.follow-Hyperlink2>i,.follow-Hyperlink3>i,.follow-Hyperlink4>i,.follow-Hyperlink5>i{
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.follow-Hyperlink>i{
+    color: rgb(35, 110, 223);
+   
+}
+.follow-Hyperlink1>i{
+    color: rgb(62, 201, 124);
+}
+.follow-Hyperlink2>i{
+    color: rgb(228, 39, 39);  
+}
+.follow-Hyperlink3>i{
+    color: rgb(74, 204, 243);
+}
+.follow-Hyperlink4>i{
+    color: rgb(129, 222, 250);
+}
+.follow-Hyperlink5>i{
+    color: rgb(255, 8, 8);
+}
+.follow-Hyperlink>i:hover,.follow-Hyperlink1>i:hover,.follow-Hyperlink2>i:hover,.follow-Hyperlink3>i:hover,.follow-Hyperlink4>i:hover,.follow-Hyperlink5>i:hover{
+    color: rgb(220, 220, 231);
+    font-size: 2.6rem;
+    transition: all ease;
+    
+}
+
+.footer-name-heading{
+    font-size: 1rem;
+    font-family: 'ubuntu',sans-serif;
+    color: rgb(214, 214, 214);
+    margin: .2rem;
+    letter-spacing: .05rem;
+}
+.pageMid-horizontal-Line-Footer{
+    width: 95%;
+    background-color:rgb(7, 7, 32);
+    height: .1rem;
+    margin: 1rem;
+}
+.footer-Reserved-rights-and-design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+.reserve-Rights,.Designed-and-mainted,.contactusat-footer a,.emailusat-footer a{
+  color: rgb(105, 105, 105);
+  font-size: 0.8rem;
+  font-family: 'ubuntu',sans-serif;
+  margin: .2rem;
+}
+.contactusat-footer a,.emailusat-footer a{
+    font-size: 0.7rem;
+    margin: 0rem;
+    padding: 0rem;
+  }
+.contactusat-footer i,.emailusat-footer i{
+    font-size: 0.7rem;
+    color: rgb(105, 105, 105);
+      margin: 0rem;
+    padding-right: 0.5rem;
+  }
+.reserve-Rights i{
+    color: rgb(105, 105, 105);
+  font-size: 0.8rem;
+}
+
+@media screen  and (max-width:700px){
+    .footer-head-para{
+        font-size: 2.5rem;
+    }
+    .footer-name-heading{
+        font-size: 0.8rem;
+        margin: .2rem;
+        letter-spacing: .05rem;
+    }
+
+    .follow-Hyperlink>i,.follow-Hyperlink1>i,.follow-Hyperlink2>i,.follow-Hyperlink3>i,.follow-Hyperlink4>i,.follow-Hyperlink5>i{
+        font-size: 2rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .follow-Hyperlink>i:hover,.follow-Hyperlink1>i:hover,.follow-Hyperlink2>i:hover,.follow-Hyperlink3>i:hover,.follow-Hyperlink4>i:hover,.follow-Hyperlink5>i:hover{
+        color: rgb(220, 220, 231);
+        font-size: 2.1rem;
+        transition: all ease;
+    }
+.reserve-Rights,.Designed-and-mainted,.contactusat-footer a,.emailusat-footer a{
+        font-size: 0.7rem;
+        text-align: center;
+        margin: .1rem;
+      }
+}
+
+
+
+@media screen  and (max-width:450px){
+    .footer-head-para{
+        font-size: 2rem;
+    }
+    .footer-name-heading{
+        font-size: 0.7rem;
+        margin: .2rem;
+        letter-spacing: .05rem;
+    }
+
+    .follow-Hyperlink>i,.follow-Hyperlink1>i,.follow-Hyperlink2>i,.follow-Hyperlink3>i,.follow-Hyperlink4>i,.follow-Hyperlink5>i{
+        font-size: 1.5rem;
+        padding-left: .3rem;
+        padding-right: .3rem;
+    }
+    .follow-Hyperlink>i:hover,.follow-Hyperlink1>i:hover,.follow-Hyperlink2>i:hover,.follow-Hyperlink3>i:hover,.follow-Hyperlink4>i:hover,.follow-Hyperlink5>i:hover{
+        color: rgb(220, 220, 231);
+        font-size: 1.6rem;
+        transition: all ease;
+    }
+
+    .footer-Reserved-rights-and-design{
+        margin: .1rem;
+    }
+.reserve-Rights,.Designed-and-mainted,.contactusat-footer a,.emailusat-footer a{
+        font-size: 0.6rem;
+        text-align: center;
+        margin: .1rem;
+      }
+}
+
+
+
+@media screen  and (max-width:360px){
+    .footer-head-para{
+        font-size: 2rem;
+    }
+    .footer-name-heading{
+        font-size: 0.7rem;
+        margin: .2rem;
+        letter-spacing: .05rem;
+    }
+
+    .follow-Hyperlink>i,.follow-Hyperlink1>i,.follow-Hyperlink2>i,.follow-Hyperlink3>i,.follow-Hyperlink4>i,.follow-Hyperlink5>i{
+        font-size: 1.5rem;
+        padding-left: .2rem;
+        padding-right: .2rem;
+    }
+    .follow-Hyperlink>i:hover,.follow-Hyperlink1>i:hover,.follow-Hyperlink2>i:hover,.follow-Hyperlink3>i:hover,.follow-Hyperlink4>i:hover,.follow-Hyperlink5>i:hover{
+        color: rgb(220, 220, 231);
+        font-size: 1.6rem;
+        transition: all ease;
+    }
+
+    .footer-Reserved-rights-and-design{
+        margin: .1rem;
+    }
+.reserve-Rights,.Designed-and-mainted,.contactusat-footer a,.emailusat-footer a{
+        font-size: 0.5rem;
+        text-align: center;
+        letter-spacing: .05rem;
+        color: rgb(211, 211, 211);
+        margin: .1rem;
+      }
+
+      .contactusat-footer i,.emailusat-footer i{
+       display: none;
+      }
+
+      .reserve-Rights i{
+        color: rgb(211, 211, 211);
+      font-size: 0.5rem;
+    }
+}

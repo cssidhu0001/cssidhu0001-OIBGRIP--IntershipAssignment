@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap&family=Ubuntu:wght@300&display=swap&family=Source+Sans+Pro:wght@300');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+.main-container-Wrapper-About-Page{
+    margin: 2.5rem;
+}
+.about-page-heading-Para{
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+}
+.horizontal-Line{
+    width: 5%;
+    background-color: red;
+    margin: 1rem 1rem 1rem 0rem;
+    height: .2rem;
+}
+
+.about-page-Quote-Para{
+    margin: .5rem .5rem .5rem 0rem;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+}
+.about-para-Detailed{
+    margin: 1rem .5rem 1rem 0rem;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: rgb(95, 95, 95);  
+    letter-spacing: .05rem;
+    line-height: 1.5rem;
+}
+
+.about-para-Detailed p{
+margin: .3rem .3rem .3rem 0rem;
+}
+
+
+
+.pageEnd-horizontal-Line-about{
+    width: 100%;
+    background-color:rgb(232, 232, 233);
+    margin: 1rem 1rem 1rem 0rem;
+    height: .05rem;
+}
+
+/* Responsive ness media queries */
+
+@media (max-width:600px){
+    .about-page-Quote-Para{
+        font-size: 1.3rem;
+    }
+    .about-para-Detailed{
+        font-size: 0.9rem;
+    }
+    
+  }
+  @media (max-width:400px){
+    .about-para-Detailed{
+        font-size: 0.8rem;
+    }
+    .about-page-Quote-Para{
+        font-size: 1.2rem;
+    }
+  }

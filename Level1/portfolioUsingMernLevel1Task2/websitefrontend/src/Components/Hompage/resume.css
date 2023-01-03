@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap&family=Ubuntu:wght@300&display=swap&family=Source+Sans+Pro:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+.main-container-Wrapper-Resume-Page{
+    margin: 2.5rem;
+}
+
+.Resume-page-heading-Para{
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+}
+.horizontal-Line-Resume{
+    width: 5%;
+    background-color: red;
+    margin: 1rem 1rem 1rem 0rem;
+    height: .2rem;
+}
+
+.Resume-page-Quote-Para{
+    margin: .5rem .5rem .5rem 0rem;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+}
+
+.pageEnd-horizontal-Line-Resume{
+    width: 100%;
+    background-color:rgb(232, 232, 233);
+    margin: 1rem 1rem 1rem 0rem;
+    height: .05rem;
+}
+
+.education-timeline-childcontainer{
+position: relative;
+margin-left: 1rem;
+}
+.education-details-wrapper-child{
+    display: flex;
+  
+}
+
+.details-div-wrapper{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.insitution-Details-logo-Div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 1.5rem;
+}
+
+.insitution-Details-logo-Div img{
+    height: 7rem;
+    width: 9rem;
+    position: relative;
+  transition: 4ms ease-in-out;
+}
+
+
+.insitution-Details-logo-Div img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 4ms ease-in-out;
+   
+}
+
+.education-timeline-childcontainer ul{
+  list-style: none;  
+}
+.education-timeline-childcontainer ul li::before{
+  position: absolute;
+  content: '';
+  height: 1rem;
+  width: 1rem;
+  background-color:#e71d36;
+  border: .1rem solid gray;
+  border-radius: 50%;
+left: -.65rem;
+transform: translateY(300%);
+
+
+}
+.education-timeline-childcontainer ul li:hover::before{
+  background-color:#151B25;
+  cursor: pointer;
+}
+.education-timeline-childcontainer{
+    border-left: .1rem solid rgb(150, 148, 148) ;
+
+}
+.education-details-wrapper-child{
+    margin: 1.5rem;
+}
+
+.education-year-para-head{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(104, 103, 103);
+    font-family: 'Raleway', sans-serif;
+}
+.education-degree-para{
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    width: 80%;
+    margin: .5rem .5rem .5rem 0rem;
+    color: rgb(49, 49, 49);
+    font-family: 'Raleway', sans-serif;
+}
+.education-degree-para>span{
+    font-size: 1.1rem;
+    margin: .5rem .5rem .2rem 0rem;
+   font-family: 'Ubuntu',sans-serif;
+}
+
+.education-school-para{
+    font-size: 1.1rem;
+    margin: 0rem .5rem .2rem 0rem;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight:500;
+}
+
+.education-detail-para{
+    font-size: 0.9rem;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 600;
+    width: 70%;
+    color:rgb(163, 163, 163);
+}
+.details-div-wrapper-end-horizontalline{
+    width: 75%;
+    height:.1rem;
+    margin: -.1rem;
+    background-color: rgb(131, 130, 130);
+}
+
+/* Responsiveness media queries */
+
+@media (max-width:650px){
+
+    .education-timeline-childcontainer ul li::before{
+        height: 0.8rem;
+        width: 0.8rem;
+      left: -.55rem;
+      transform: translateY(430%);
+      }
+
+    .insitution-Details-logo-Div img{
+        height: 5rem;
+        width: 7rem;
+        position: relative;
+      transition: 4ms ease-in-out;
+    }
+
+    .education-year-para-head{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .education-degree-para{
+        font-size: 1.2rem;
+    }
+    .education-degree-para>span{
+        font-size: 1rem;
+    }
+    
+    .education-school-para{
+        font-size: 1rem;
+    }
+    
+    .education-detail-para{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:550px){
+    .insitution-Details-logo-Div img{
+        height: 7rem;
+        width: 9rem;
+        position: relative;
+      transition: 4ms ease-in-out;
+    }
+    .education-details-wrapper-child{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .education-timeline-childcontainer ul li::before{
+      left: -.55rem;
+      transform: translateY(800%);
+      }
+
+}

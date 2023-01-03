@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap&family=Ubuntu:wght@300&display=swap&family=Source+Sans+Pro:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+.main-container-Wrapper-ContactUs-Page{
+    margin: 2.5rem;
+    
+}
+/* .maincontainer-wrappper-reach-us{
+  
+} */
+
+.ContactUs-page-heading-Para{
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+}
+.horizontal-Line-ContactUs{
+    width: 5%;
+    background-color: red;
+    margin: 1rem 1rem 1rem 0rem;
+    height: .2rem;
+}
+
+.ContactUs-page-Quote-Para{
+    margin: .5rem .5rem .5rem 0rem;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+}
+
+.pageEnd-horizontal-Line-ContactUs{
+    width: 100%;
+    background-color:rgb(232, 232, 233);
+    margin: 1rem 1rem 1rem 0rem;
+    height: .05rem;
+}
+.pageTop-horizontal-Line-ContactUs{
+    width: 80%;
+    background-color:rgb(232, 232, 233);
+    margin: 1rem 1rem 1rem 0rem;
+    height: .1rem;
+}
+
+.contactformParaHead{
+    text-transform: uppercase;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    margin: .5rem .5rem .5rem 0rem;
+}
+.address-main-container-Wrapper-form-Location{
+    display: flex;
+    justify-content: center;
+    align-items:center;    
+}
+
+.contactusformdivmaincontainer{
+    margin-left: 1rem;
+  
+}
+
+.contactinput{
+    height: 2.5rem;
+    width: 25rem;
+    margin: .5rem .5rem .5rem 0rem ;
+    border: none;
+    background-color: #d6d9dc; 
+    color: rgb(105, 104, 104);
+    padding: .5rem;
+    font-family: 'ubuntu',sans-serif;
+    letter-spacing: .1rem;
+    outline: none;
+}
+.contactmessagetextarea{
+  width: 25rem;
+  height: 6rem;
+  margin: 1rem 1rem 1rem 0rem ;
+  border: none;
+background-color: #d6d9dc; 
+color: rgb(105, 104, 104);
+    padding: .5rem;
+    font-family: 'ubuntu',sans-serif;
+    letter-spacing: .1rem;
+    outline: none;
+}
+
+.contactinput::placeholder,.contactmessagetextarea::placeholder{
+    color: rgb(105, 104, 104);
+    padding: .5rem;
+    font-family: 'ubuntu',sans-serif;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+.contactinput:focus,.contactmessagetextarea:focus{
+
+    box-shadow: 2px 2px 15px slategray;
+}
+.contactinput:hover,.contactmessagetextarea:hover{
+    cursor: pointer;
+}
+
+.submitbtn{
+    height: 2.5rem;
+    width: 25rem;
+    margin: .5rem .5rem .5rem 0rem ;
+    border: none;
+    text-transform: uppercase;
+    background-color:#e71d36; 
+    color:whitesmoke;
+    padding: .5rem;
+    font-family: 'ubuntu',sans-serif;
+    letter-spacing: .1rem;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.submitbtn:hover{
+    height: 2.7rem;
+    width: 25.2rem;
+    transition: all 2ms ease;
+    box-shadow: 1px 1px 10px #d14f5e ;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.contactus-address-div{
+    margin-top: -1.8rem;
+    height: 20.5rem;
+    background-image: linear-gradient(rgba(4, 29, 61, 0.808), rgba(4, 29, 61, 0.808)),url("../../Images/reachusbackgorund.jpg");
+}
+
+.contactus-address-div-parent-wrapper{
+    margin: 2rem;
+}
+
+.adress-para-head{
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+}
+
+.adress-description{
+    font-size: 1rem;
+    color: rgb(180, 180, 180);
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin: .3rem .3rem .3rem 0rem;
+}
+
+.address-icon-contactus{
+    font-size: 1rem;
+    color: rgb(180, 180, 180);
+}
+.address-contactus-para>i{
+font-size: 1.5rem;
+color: white;
+}
+.address-contactus-para{
+    color: rgb(226, 226, 226);
+font-size: 1.3rem;
+padding: .2rem .2rem .2rem .5rem;
+}
+.address-contactus-para>span{
+font-size: 1rem;
+display: block;
+color: rgb(177, 177, 177);
+padding: .2rem .2rem .2rem 1.2rem;
+}
+
+.locate-me-button{
+    height: 2rem;
+    margin-left: 1.8rem;
+    margin-right: 1rem;
+    width: 16rem;
+    border: none;
+    background-color: rgb(231, 228, 228);
+    border-radius: .3rem;
+}
+.locate-me-button:hover{
+    height: 2.1rem;
+    width: 16.1rem;
+  box-shadow: 1px 1px 10px gray;
+  padding-left: 1rem;
+  transition: 5ms all ease;
+}
+
+.locate-me-button i{
+   font-size: 1.3rem;
+   color: gray;
+   padding-right: 1rem;
+    
+}
+.locate-me-button>a{
+   font-size: 1.3rem;
+   color: gray;
+   font-family: 'ubuntu',sans-serif;
+   padding-left: .5rem;
+   font-weight: 600;
+    
+}
+
+.phoneno-address-para i{
+    font-size: 1.5rem;
+    color: white;
+    margin: 1rem .5rem .5rem .8rem;
+}
+.Email-address-para i{
+    font-size: 1.5rem;
+    color: white;
+    margin: .4rem .5rem .5rem 0rem;
+}
+
+.phoneno-address-para>a{
+    color: rgb(185, 184, 184);
+    font-size: 1.5rem;
+    font-family: 'Raleway',sans-serif;
+  letter-spacing: .05rem;
+  font-weight: 800;
+  
+}
+.Email-address-para>a{
+    color: rgb(185, 184, 184);
+    font-size: 1rem;
+    font-family: 'Raleway',sans-serif;
+  letter-spacing: .05rem;
+  font-weight: 800;
+}
+
+
+
+
+/* Media Queries for Responsiveness 
+*/
+
+
+@media (max-width:1520px){
+    .phoneno-address-para i{
+        font-size: 1rem;
+    }
+    .Email-address-para i{
+        font-size: 1rem;
+    }
+    .phoneno-address-para>a{
+        font-size: 1rem;
+      letter-spacing: .03rem;
+    }
+    .Email-address-para>a{
+        font-size: 0.8rem;
+      letter-spacing: .03rem;
+    }
+}
+
+@media (max-width:1400px){
+    .contactus-address-div-parent-wrapper{
+        margin: .5rem;
+    }
+    
+}
+@media (max-width:1300px){
+
+
+    .contactusformdivmaincontainer{
+        margin-left: .5rem;
+      
+    }
+    .contactinput{
+        height: 2.5rem;
+        width: 20rem;
+        margin: .5rem .5rem .5rem 0rem ;
+    }
+    .contactmessagetextarea{
+      width: 20rem;
+      height: 6rem;
+      margin: 1rem 1rem 1rem 0rem ;
+
+        padding: .5rem;
+      
+    }   
+
+
+    .submitbtn{
+        height: 2.5rem;
+        width: 20rem;
+       
+    }
+    .submitbtn:hover{
+        height: 2.7rem;
+        width: 20.2rem;
+    }
+
+}
+
+@media (max-width:1120px){
+
+    .contactusformdivmaincontainer{
+        margin-left: .5rem;
+      
+    }
+    .contactinput{
+        height: 2.5rem;
+        width: 17rem;
+        margin: .5rem .5rem .5rem 0rem ;
+    }
+    .contactmessagetextarea{
+      width: 17rem;
+      height: 6rem;
+      margin: 1rem 1rem 1rem 0rem ;
+
+        padding: .5rem;
+      
+    }   
+    .submitbtn{
+        height: 2.5rem;
+        width: 17rem;
+       
+    }
+    .submitbtn:hover{
+        height: 2.7rem;
+        width: 17.2rem;
+    }
+}
+@media (max-width:980px){
+    .address-main-container-Wrapper-form-Location{
+        display: flex;
+       flex-direction: column;  
+    }
+
+    .contactus-address-div{
+        margin-top: 1.8rem;
+        height: 18rem;  
+    }
+}
+@media (max-width:900px){
+    .address-main-container-Wrapper-form-Location{
+        display: flex;
+       flex-direction: row;  
+    }
+
+    .contactus-address-div{
+        margin-top: -1.8rem;
+        height: 20.5rem;
+    }    
+}
+
+@media (max-width:700px){
+    .address-main-container-Wrapper-form-Location{
+        display: flex;
+       flex-direction: column;  
+    }
+
+    .contactus-address-div{
+        margin-top: 1.8rem;
+        height: 18rem;  
+    }
+    .contactformParaHead{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:340px){
+    .address-main-container-Wrapper-form-Location{
+        display: flex;
+       flex-direction: column;  
+    }
+
+    .contactus-address-div{
+        margin-top: 1.8rem;
+        height: 18rem;  
+    }
+    .contactinput{
+        width: 15rem;
+    }
+    .contactmessagetextarea{
+      width: 15rem;
+    }   
+    .submitbtn{
+        width: 15rem;
+       
+    }
+    .submitbtn:hover{
+        width: 15.2rem;
+    }
+    .contactformParaHead{
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    .adress-para-head{
+        font-size: 1.5rem;
+    }
+
+    .adress-description{
+        font-size: 0.8rem;
+    }
+    
+    .address-icon-contactus{
+        font-size: 0.9rem;
+    }
+    .address-contactus-para>i{
+    font-size: 1.2rem;
+    }
+    .address-contactus-para{
+    font-size: 1.2rem;
+    }
+    .address-contactus-para>span{
+    font-size: 0.9rem;
+    }
+    
+    .locate-me-button{
+    width: 12rem;
+    }
+    .locate-me-button:hover{
+        height: 2.1rem;
+        width: 16.1rem;
+    }
+    
+    .locate-me-button i{
+       font-size: 1rem;
+        
+    }
+    .locate-me-button>a{
+       font-size: 1rem;
+       font-weight: 000;
+        
+    }
+    
+    .phoneno-address-para i{
+        font-size: 1.2rem;
+    }
+    .Email-address-para i{
+        font-size: 1.2rem;
+    }
+    
+    .phoneno-address-para>a{
+        font-size: 1rem;
+      
+    }
+    .Email-address-para>a{
+        font-size: 0.7rem;
+    
+    }
+
+
+}

@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap&family=Ubuntu:wght@300&display=swap&family=Source+Sans+Pro:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+
+
+.main-container-Wrapper-ProjectContactUs-Page{
+    margin: 2.5rem;
+}
+
+.ProjectContactUs-page-heading-Para{
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+}
+.horizontal-Line-ProjectContactUs{
+    width: 5%;
+    background-color: red;
+    margin: 1rem 1rem 1rem 0rem;
+    height: .2rem;
+}
+
+.ProjectContactUs-page-Quote-Para{
+    margin: .5rem .5rem .5rem 0rem;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+}
+
+.pageEnd-horizontal-Line-ProjectContactUs{
+    width: 100%;
+    background-color:rgb(232, 232, 233);
+    margin: 1rem 1rem 1rem 0rem;
+    height: .05rem;
+}
+
+.pageTop-horizontal-Line-ProjectContactUs{
+        width: 80%;
+        background-color:rgb(232, 232, 233);
+        margin: 1rem 1rem 1rem 0rem;
+        height: .1rem;
+    }
+    
+.project-contactUS-main-container-Wrapper{
+    
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 165%;
+   margin: 0rem .1rem 1rem .5rem;
+   border-radius: 0rem 0rem .5rem .5rem;
+    padding: 3rem;
+    background-color:  rgb(211, 211, 211);
+}
+.project-contactUS-main-container-Wrapper-Parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    background-color:#2b3546;
+    border-radius: .9rem;
+    box-shadow: 2px 2px 15px#343a44;
+
+
+}
+
+
+.project-contactUS-formParaHead{
+    margin: 2rem;
+    font-size: 2rem;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 700;
+    color: white;
+    letter-spacing: .1rem;
+    text-shadow:1px 1px 2px rgb(136, 136, 136);
+}
+
+.project-contactUS-formdivmaincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.project-input{
+    width: 100%;
+height: 2.7rem;
+margin: 0rem .7rem .7rem 0rem;
+border-radius: .3rem;
+outline: none;
+border: none;
+background-color:#4f5663;
+padding: 1rem;
+    font-size: 1rem;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 600;
+    color: rgb(175, 175, 175);
+    letter-spacing: .05rem;
+
+}
+
+.project-input::placeholder,.brief-intro-about-project::placeholder,.brief-intro-about-project-message::placeholder{
+    font-size: 1rem;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 600;
+    color: rgb(175, 175, 175);
+    letter-spacing: .05rem;
+}
+
+.project-input:focus,.brief-intro-about-project:focus,.brief-intro-about-project-message:focus{
+    box-shadow: 1px 1px 5px rgb(73, 73, 73);
+}
+
+.project-contact-us-label{
+    font-size: 1rem;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 600;
+    color: rgb(175, 175, 175);
+    letter-spacing: .05rem;
+    margin:.7rem .5rem .5rem 0rem;
+}
+.project-information{
+  margin: 1rem 1rem 1rem 0rem;
+}
+.project-input-dropdown{
+    width: 100%;
+    height: 3rem;
+    margin: .3rem .5rem .5rem 0rem;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 700;
+    letter-spacing: .05rem; 
+}
+input[type="radio"]{
+    font-size: 1.5rem;
+    height: 1rem;
+    margin-top: .2rem;
+    width: 1rem;
+background: #e71d36;
+} 
+
+
+.project-info-radio{
+margin: 1.5rem 1.5rem 1.5rem 0rem;
+padding: .2rem;
+font-size: 1rem;
+font-family: 'ubuntu',sans-serif;
+font-weight: 600;
+color: rgb(175, 175, 175);
+
+}
+
+.brief-intro-about-project,.brief-intro-about-project-message{
+    width: 100%;
+    border-radius: .3rem;  
+    margin: 0rem .7rem .7rem 0rem;
+     border-radius: .3rem; 
+    outline: none;
+    border: none;
+    background-color:#4f5663;
+    padding: .5rem;
+        font-size: 0.9rem;
+        font-family: 'ubuntu',sans-serif;
+        font-weight: 600;
+        color: rgb(175, 175, 175);
+        letter-spacing: .05rem; 
+}
+
+.submit-buttton-project{
+    background-color: #e71d36;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: .3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .5rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'ubuntu',sans-serif;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+  
+}
+.submit-buttton-project:hover{
+    cursor: pointer;
+    padding:.6rem;
+    font-size: 2.05rem;
+    transition: all ease;
+    box-shadow: 1px 1px 5px rgb(252, 36, 36) ;
+}  
+
+.leaveusMessage-div-Wrapper{
+    display: flex;
+    align-items: center;
+   align-items: stretch;
+    background-color: rgb(211, 211, 211);
+    height: 5rem;
+    margin: 1rem 1rem 0rem .5rem;
+    border-radius: .4rem;
+}
+
+.leave-Message-parent-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items:center;
+    margin: 2rem;
+}
+.leaveusMessage-div-Wrapper:hover{
+    box-shadow: 1px 1px 10px gray;
+}
+.icon-para-plus-icon{
+    display: flex;
+    float:right;
+    /* margin-left: 5rem; */
+    font-size: 2rem;
+
+    font-family: 'Raleway',sans-serif;
+    color: rgb(78, 78, 78);
+
+}
+.icon-para-plus-icon:hover{
+    text-shadow: 1px 1px 5px gray;  
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.get-in-touch-para{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   font-size: 1.5rem;
+   font-family: 'Raleway',sans-serif;
+   color: rgb(78, 78, 78);
+}
+
+#minus-sign{
+    display: none;
+}
+
+
+@media (max-width:4000px){
+    .project-contactUS-main-container-Wrapper{
+        width: 99%;
+        height: 80%;
+    }
+    .project-contactUS-main-container-Wrapper-Parent{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:3400px){
+    .project-contactUS-main-container-Wrapper{
+        width: 98.5%;
+        height: 94%;
+    }
+    
+}
+@media (max-width:2600px){
+    .project-contactUS-main-container-Wrapper{
+        width: 98%;
+        height: 120%;
+    }
+    
+}
+@media (max-width:1800px){
+    .project-contactUS-main-container-Wrapper{
+        width: 97%;
+        height: 180%;
+    }
+    
+}
+@media (max-width:1200px){
+    .project-contactUS-main-container-Wrapper{
+        width: 96.5%;
+        height: 210%;
+    }
+    
+}
+@media (max-width:1100px){
+    .project-contactUS-main-container-Wrapper{
+        width: 96.5%;
+    }
+    .project-input,.project-input-dropdown,.brief-intro-about-project,.brief-intro-about-project-message{
+        margin-left: 1.5rem;
+        width: 90%;
+    }
+    .project-contact-us-label{
+        margin-left: 1.5rem;
+    }
+.project-information{
+    margin-left: 1.5rem;
+}
+
+.submit-buttton-project{
+    margin-left: 1.5rem;
+    width: 90%; 
+}    
+}
+
+@media (max-width:670px){
+    .project-contactUS-main-container-Wrapper{
+        width: 96%;
+    }
+    
+}
+@media (max-width:570px){
+    .get-in-touch-para{
+       font-size: 1.3rem;
+    }
+    .project-contactUS-formParaHead{
+     
+        font-size: 1.5rem;
+    }
+
+}
+@media (max-width:530px){
+    .project-contactUS-main-container-Wrapper{
+        width: 95%;
+        height: 200%;
+    }  
+}
+
+@media (max-width:510px){
+    .get-in-touch-para{
+        font-size: 1.2rem;
+    }
+    .project-contactUS-formParaHead{
+     
+        font-size: 1.3rem;
+    }
+    .project-contactUS-main-container-Wrapper-Parent{
+        width: 120%;
+        height: 100%;
+    }
+}
+@media (max-width:450px){
+    .project-contactUS-main-container-Wrapper{
+        width: 94.5%;
+        height: 210%
+    }  
+    .project-input,.project-input-dropdown,.brief-intro-about-project,.brief-intro-about-project-message{
+        margin-left: 1rem;
+        width: 85%;
+    }
+    .project-contact-us-label{
+        margin-left: 1rem;
+    }
+.project-information{
+    margin-left: 1rem;
+}
+
+.submit-buttton-project{
+    margin-left: 1rem;
+    width: 85%; 
+}   
+.project-contactUS-main-container-Wrapper-Parent{
+    width: 120%;
+    height: 100%;
+}
+ 
+}
+
+@media (max-width:400px){
+    .project-contactUS-main-container-Wrapper{
+        width: 94%;
+    }  
+    .project-contactUS-formParaHead{
+        font-size: 1.3rem;
+    }
+
+    .project-input{
+        font-size: 0.9rem;
+    
+    }
+    
+    .project-input::placeholder,.brief-intro-about-project::placeholder,.brief-intro-about-project-message::placeholder{
+        font-size: 0.9rem;
+    }
+
+    .project-contact-us-label{
+        font-size: 1rem;
+    }
+    .project-information{
+      margin: 1rem 1rem 1rem 1rem;
+    }
+    .project-input-dropdown{
+        font-size: 0.9rem;
+    }
+    input[type="radio"]{
+        font-size: 1.3rem;
+        height: 1rem;
+        margin-left: 1rem;
+    } 
+    
+    
+    .project-info-radio{
+    margin: 1.5rem 1.5rem 1.5rem 0rem;
+    padding: .2rem;
+    font-size: 1rem;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 600;
+    color: rgb(175, 175, 175);
+    
+    }
+    .project-contactUS-main-container-Wrapper-Parent{
+        width: 120%;
+        height: 100%;
+    }
+
+}
+@media (max-width:350px){
+    .project-contactUS-main-container-Wrapper{
+        width: 93.5%;
+        height: 200%;
+
+    }  
+    .project-contactUS-main-container-Wrapper-Parent{
+        width: 120%;
+        height: 100%;
+    }
+}
+
+@media (max-width:300px){
+    .project-contactUS-main-container-Wrapper{
+        width: 92%;
+        height: 200%;
+    }  
+    .project-contactUS-main-container-Wrapper-Parent{
+        width: 140%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 60%;
+
+}
+body{
+    background-color: #151B25;
+    width: 100%;
+    height: 100%;
+}
+
+.homepage-container-Wrapper{
+    /* display: flex; */
+    flex-direction: row;
+}
+
+.Wrapper-Box-content-Hompage{
+ height: 100vh;
+    width:70%;
+    float: right;
+    background:#4f5663;
+    
+}
+.main-Box-of-Website{
+   height: 91vh;
+   overflow: scroll;
+   width: 85%;
+   margin: 2rem;
+    background: white;
+}
+.intro-Div-Wrapper{
+    display: flex;
+    margin: 1rem;
+    margin-bottom: 0rem;
+    justify-content: space-between;
+}
+.admin-Image{  
+height: 40rem;
+/* width: 35vmax; */
+}
+
+.intro-Div-Wrapper-Details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+.website-para1{
+    margin: 1rem 1rem 1rem 0rem;
+font-size: 2rem;
+color: red;
+}
+
+.website-para2{
+    display: flex;
+    flex-direction: column;
+    color: #151b25;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+}
+
+.horizontal-Line-homepage{
+    background-color: red;
+    width: 20%;
+    height: .2rem;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.expertise-in-div{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #525458;
+    margin: 1rem 1rem 1rem 0rem;
+}
+.buttons-Wrapper{
+    display: flex;
+}
+.download-Resume-Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    height: 4rem;
+    width: 50%;
+    border-radius: 0rem;
+    border:none;
+    background:  #e71d36;
+    color: white;
+}
+.view-Portfolio-Button{
+    display: flex;
+    border:none;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    height: 4rem;
+    width: 50%;
+    border-radius: 0rem;
+    background:  #151B25;
+    color: white;
+}
+.download-Resume-Button:hover,.view-Portfolio-Button:hover{
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: none;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+/* Responsiveness of the website */
+
+@media (max-width:1100px) {
+    
+    .Wrapper-Box-content-Hompage{
+        height: 100vh;
+           width:70%;
+           float: right;
+           background:#4f5663;
+           
+       }
+       .main-Box-of-Website{
+          height: 91vh;
+          overflow: scroll;
+          width: 90%;
+          margin: 2rem;
+           background: white;
+       }
+    
+}
+
+
+
+
+@media (max-width:900px) {
+    body{   
+        background-color: #151B25;
+        width: 100%;
+        height: 100%;
+    }
+    .Wrapper-Box-content-Hompage{
+        height: 100vh;
+           width:100%;  
+           display: flex;
+           justify-content: center;
+           background:#4f5663;
+       }
+       .main-Box-of-Website{
+        height: 93vh;
+        overflow: scroll;
+        width: 90%;
+        margin: 1.8rem;
+        background: white;
+     }
+    
+}
+@media (max-width:600px) {
+    body{   
+        background-color: #151B25;
+        width: 100%;
+        height: 100%;
+    }
+    .Wrapper-Box-content-Hompage{
+        height: 100vh;
+           width:100vw;  
+           display: flex;
+           justify-content: center;
+           background:#4f5663;
+       }
+       .main-Box-of-Website{
+        height: 95vh;
+        overflow: scroll;
+        width: 100vw;
+        margin: 1rem;
+         background: white;
+     }
+    
+}
+@media (max-width:450px) {
+    body{   
+        background-color: #151B25;
+        width: 100%;
+        height: 100%;
+    }
+    .Wrapper-Box-content-Hompage{
+        height: 100vh;
+           width:100vw;  
+           display: flex;
+           justify-content: center;
+           background:#4f5663;
+       }
+       .main-Box-of-Website{
+        height: 100vh;
+        overflow: scroll;
+        width: 100vw;
+        margin: 0;
+         background: white;
+     }
+    
+}
+
+@media (max-width:640px){
+    .intro-Div-Wrapper{
+        margin: 0rem;
+        
+    }
+    .admin-Image{  
+        height: 30rem;
+        }
+        
+        .intro-Div-Wrapper-Details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 3rem;
+        }
+        .intro-Div-Wrapper-Details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 2rem;
+        }
+
+}
+@media (max-width:520px){
+    .intro-Div-Wrapper{
+        display: flex;
+        flex-direction: column;  
+        margin-top: 2rem;
+    }
+        .intro-Div-Wrapper-photo{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+
+}
+@media (max-width:440px){
+        .download-Resume-Button{
+            font-size: 1rem;
+            height: 3rem;
+        }
+        .view-Portfolio-Button{
+            font-size: 1rem;
+            height: 3rem;
+        }
+        .download-Resume-Button:hover,.view-Portfolio-Button:hover{
+            font-size: 1.1rem;
+        }
+
+}
+@media (max-width:300px){
+        .download-Resume-Button{
+            font-size: 0.8rem;
+            height: 3rem;
+        }
+        .view-Portfolio-Button{
+            font-size: 0.8rem;
+            height: 3rem;
+        }
+        .download-Resume-Button:hover,.view-Portfolio-Button:hover{
+            font-size: 0.9rem;
+        }
+
+        .website-para1{
+        font-size: 1.4rem;
+        }
+        
+        .website-para2{
+            font-size: 4rem;
+        }
+        .expertise-in-div{
+            font-size: 1.4rem;
+        }
+
+}
+
+
+

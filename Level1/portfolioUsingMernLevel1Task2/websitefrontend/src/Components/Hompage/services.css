@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap&family=Ubuntu:wght@300&display=swap&family=Source+Sans+Pro:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+.main-container-Wrapper-Services-Page{
+    margin: 2.5rem;
+}
+
+.Services-page-heading-Para{
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+}
+.horizontal-Line-Services{
+    width: 5%;
+    background-color: red;
+    margin: 1rem 1rem 1rem 0rem;
+    height: .2rem;
+}
+
+.Services-page-Quote-Para{
+    margin: .5rem .5rem .5rem 0rem;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+}
+
+.pageEnd-horizontal-Line-Services{
+    width: 100%;
+    background-color:rgb(232, 232, 233);
+    margin: 1rem 1rem 1rem 0rem;
+    height: .05rem;
+}
+
+.services-details-conatianer-Wrapper{
+    display: flex;
+}
+
+.serivces-icon-Image {
+height: 3rem;
+width: 3rem;
+margin: .5rem ;
+}
+.serivces-icon-Image:hover{
+    cursor: pointer;
+height: 3.2rem;
+width: 3.2rem;
+transition: 2ms ease;
+}
+.services-Details-div-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+.services-detial-data-para-heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(53, 52, 52);
+}
+.services-detial-data-para-description{
+    margin: .5rem .5rem .5rem 0rem;
+    font-size: 0.9rem;
+    font-family: 'Raleway',sans-serif;
+color: rgb(100, 100, 100);
+
+line-height: 1.4rem;
+}
+
+.serives-child-conatiner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+
+/* Responsiveness media queries */
+
+@media (max-width:650px){
+    .serivces-icon-Image {
+        height: 2rem;
+        width: 2rem;
+        }
+        .serivces-icon-Image:hover{
+        height: 2.2rem;
+        width: 2.2rem;
+        }
+}
+
+@media (max-width:550px){
+    .serivces-icon-Image {
+        height: 2.5rem;
+        width: 2.5rem;
+        }
+        .serivces-icon-Image:hover{
+        height: 2.6rem;
+        width: 2.6rem;
+        }
+    .services-details-conatianer-Wrapper{
+       margin: .2rem;
+    }
+    .serives-child-conatiner{
+        flex-direction: column;
+
+    } 
+}

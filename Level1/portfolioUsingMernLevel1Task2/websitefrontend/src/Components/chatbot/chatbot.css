@@ -1,0 +1,210 @@
+.u-userLauncherColor {
+    /* background-color: #151B25 !important; */
+    background-color:#151B25 ;
+    color: #FFFFFF !important;
+    fill: #FFFFFF !important;
+}
+
+.wrapper-AtBcr {
+    border-radius: 2rem;
+    border: none !important;
+    display: flex; 
+    flex-direction: row;
+    position: fixed;
+    bottom: 22px;
+    right: 40px;
+    pointer-events:visible;
+    transition: all .4s;
+}
+
+.helpcontainer{
+    font-size: 14px;
+    width: 20rem;
+    padding: 1.1rem;
+    border-radius: 0.5rem;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+}
+
+.helpcontainerheading, .helpbackbtn{
+    display: flex;
+    justify-content: right;
+    border:0px;
+}
+
+.helpminimisebar{
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.helptitle{
+    display: flex;
+    width: 100%;
+    padding: 0.4rem 0.5rem;
+    font-size: 1.07143rem;
+    justify-content: center;
+}
+
+.helpcontainercontains{
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    height: 26rem;
+    bottom: 0px;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    padding-bottom: 12px;
+}
+
+.chatbox-wrapper-button{
+    display: flex;
+    padding: 5px;
+}
+
+.chatbox-wrapper-button span{
+    font-size: 1.4rem;
+    padding-right: 6px;
+}
+
+.botImage{
+    width: 35px;
+    height: auto;
+}
+
+.App-header{
+    background-color: rgb(192, 192, 192);
+    padding: 16px;
+    display: block;
+}
+
+.react-chatbot-kit-chat-header{
+    display: none;
+}
+
+.helpcontainerheading{
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem 0.5rem 0rem 0rem ;
+}
+
+.react-chatbot-kit-chat-input-form{
+    background-color: rgb(32,32,32);
+    display: flex;
+    justify-content: right;
+    margin: -16px;
+    padding: 16px;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    position: fixed;
+    bottom: 30px;
+    width: 17.8rem;
+    z-index: 999;
+}
+
+.react-chatbot-kit-chat-btn-send{
+    width: 2rem;
+}
+
+.react-chatbot-kit-chat-input{
+    width: 100%;
+}
+
+.react-chatbot-kit-user-avatar-icon{
+    width: 10px;
+}
+
+.react-chatbot-kit-chat-bot-avatar-letter, .react-chatbot-kit-user-avatar-container{
+    display: none;   
+}
+
+.react-chatbot-kit-user-chat-message{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: red;
+}
+
+.react-chatbot-kit-chat-bot-message, 
+/* .react-chatbot-kit-chat-bot-message span,  */
+.react-chatbot-kit-user-chat-message{
+    font-size: 1.2rem;
+    display: inline-flex;
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.react-chatbot-kit-chat-bot-message::before{
+    content: url(../../Images/icon/bot.png);
+}
+
+.react-chatbot-kit-user-chat-message::after{
+    content: url(../../Images/icon/user.png);
+}
+
+.react-chatbot-kit-chat-bot-message-container{
+    text-align: left;
+}
+
+.react-chatbot-kit-chat-message-container{
+    text-align: right;
+}
+
+.link-list-item-url, .link-list-item{
+    background-color: #121212;
+}
+
+
+
+@media(max-width:600px){
+    .u-inlineBlock{
+        display: none;
+    }
+    .u-userLauncherColor{
+        background: transparent;
+    }
+    
+    .botImage{
+        width: 6rem;
+        height:4.5rem;
+        padding: 0rem;
+        margin-right: -2.5rem;
+        margin-bottom: -.5rem;
+    }
+}
+
+@media(max-width:450px){
+    .botImage{
+        width: 5.5rem;
+        height:4rem;
+        padding: 0rem;
+        margin-right: -3.4rem;
+        margin-bottom: -1.7rem;
+    }
+    .helpcontainercontains{
+        height: 22rem;
+        width: 13rem;
+      
+    }
+    .helpcontainer{
+        width: 15.2rem; 
+    }
+
+    .react-chatbot-kit-chat-input-form{
+      
+        width: 13rem;
+       
+    }
+
+
+}
+@media(max-width:300px){
+    .botImage{
+        width: 5rem;
+        height:3.6  rem;
+        padding: 0rem;
+        margin-right: -3.4rem;
+        margin-bottom: -1.7rem;
+    }
+}

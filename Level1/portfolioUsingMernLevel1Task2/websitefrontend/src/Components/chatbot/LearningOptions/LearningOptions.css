@@ -1,0 +1,14 @@
+.learning-options-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.learning-option-button {
+  padding: 0.5rem;
+  border-radius: 25px;
+  background: #1c1c1c;
+  color: white;
+  border: 1px solid black;
+  margin: 3px;
+}

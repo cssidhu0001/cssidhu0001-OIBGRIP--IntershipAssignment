@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap&family=Ubuntu:wght@300&display=swap&family=Source+Sans+Pro:wght@300');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+.progressbar-assembled-Div-main-Child-Wrapper{
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  
+}
+
+.progressbardata{
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+}
+
+
+#progressBar{
+  margin: 40px;
+}
+
+.progressbar-para-head{
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  margin: 0.5rem 0.5rem 0.5rem 0rem;
+
+}
+#myProgress0, #myProgress1 ,#myProgress2 ,#myProgress3 ,#myProgress4,#myProgress5{
+  height: 0.8rem;
+  border-radius: 0.2rem;
+  width: 100%;
+  background-color: rgb(204, 202, 202);
+}
+
+#myBar0, #myBar1, #myBar2, #myBar3, #myBar4,#myBar5 {
+  display: flex;
+ justify-content: flex-end;
+  width: 1%;
+  height: 0.8rem;
+border-radius: 0.2rem;
+  background-color: #e71d36;
+}
+ 
+#mybarspan0,#mybarspan1,#mybarspan2,#mybarspan3,#mybarspan4,#mybarspan5{
+  font-size: 0.8rem;
+ display: flex;
+  position: relative;
+font-weight: 500;
+margin-top: -0.1rem;
+
+}
+
+
+/* Responsive ness media queries */
+
+@media (max-width:600px){
+  .progressbar-assembled-Div-main-Child-Wrapper{
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  .progressbardata{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (max-width:400px){
+  .progressbar-assembled-Div-main-Child-Wrapper{
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .progressbar-para-head{
+    font-size: 0.8rem;
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
+  
+  }
+}
