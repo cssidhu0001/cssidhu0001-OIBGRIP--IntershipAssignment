@@ -1,0 +1,236 @@
+/* Resetting the default margin and padding of the page */
+body {
+    margin:0px;
+    padding:0px;
+    background-color: rgb(247, 240, 232);
+}
+
+/* Setting of the backgroung image with before peusduo selector */
+header::before {
+    content: "";
+    background: url('/back1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    width:100%;
+    height: 60vh;
+    opacity: 0.7;
+}
+
+.maincontainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+position: sticky;
+
+
+}
+div img{
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+    position: sticky;
+   
+}
+
+.mainheading{
+    font-size:5.5rem;
+    font-weight: bold;
+    font-family: Verdana;
+    
+}
+.mainheading:hover{
+    font-size:5.7rem;
+    font-weight: bold;
+    font-family: Verdana;
+    color: crimson;
+
+}
+.marqueeimages img{
+    margin: 0px;
+    padding: 1px;
+    width: 400px;
+    height: 300px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+    margin-top: 1rem;
+  
+
+}
+.navigationbar{
+    align-items: center;
+    justify-content: center;
+     margin-top: 2rem;
+    background-color: bisque;
+    border-radius: 4rem;
+    width: 80vw;
+    margin-left: 11rem;
+    position:sticky; top: 0;
+}
+.navbar li a{
+    text-decoration: none;
+    padding:2rem;
+    color:chocolate
+}
+.navbar li {
+
+    text-decoration: none;
+    list-style: none;
+  padding: 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+    
+    
+
+}
+
+.navbar li a:hover{
+    font-size: 1.6rem;
+    color: coral;
+    
+
+}
+
+
+.maindata{
+    align-items: center;
+    justify-content: center;
+
+}
+.heading1 p{ 
+  word-wrap:normal;
+}
+
+.heading1{
+    background-color: rgb(236, 203, 142);
+    height: 45vh;
+    width: 98vw;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    
+    
+
+}
+
+.headingpara{
+    margin: 2rem;
+    padding: 0.8rem;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    color:maroon;
+}
+.heading2{
+    background-color:rgb(243, 215, 164);
+    height: 110vh;
+    width: 98vw;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    
+    
+
+}
+
+.headingpara{
+    margin: 2rem;
+    padding: 0.8rem;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    color:maroon;
+}
+.explainpara{
+    margin: 1.5rem;
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    font-size: 1.8rem;
+}
+.box{display: flex;
+    /* flex-direction: column; */
+    margin: 0.3rem;
+    height: 60vh;
+    width: 26vw;
+    background-color: rgb(240, 199, 110);
+    border-radius: 1.2rem;
+    align-items: center;
+     justify-content: center;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    padding: 0.5;
+    font-weight: bold;
+    color:brown ;
+}
+.boxes{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.box img{
+    justify-content: center;
+    height: 180px;
+    width: 200px;
+    margin-top: 0px;
+}
+
+.boxparadata{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    color: rgb(66, 40, 5);
+}
+.box:hover{
+color:chocolate;
+font-size: 3.2rem;
+}
+
+.gotop a{
+    text-decoration:none ;
+    color:rgb(134, 18, 18);
+}
+.gotop{
+    display: flex;
+    background-color: rgb(204, 174, 6);
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', cursive;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 5vh;
+    width: 70vw;
+    margin-left: 16rem;
+    border-radius: 1rem;
+    
+}
+.gotop a:hover{
+   color: lightcoral;
+}
+.endcredits{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding: 0.5em;
+    font-family: 'Sacramento', cursive;
+}
+.endcredits1{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding: 0.5em;
+    font-family: 'Sacramento', cursive;
+        margin-bottom: 1rem;
+}

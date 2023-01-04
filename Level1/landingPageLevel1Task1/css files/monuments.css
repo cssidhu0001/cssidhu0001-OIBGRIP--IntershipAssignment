@@ -1,0 +1,169 @@
+/* Resetting the default margin and padding of the page */
+body {
+    margin:0px;
+    padding:0px;
+    background-color: rgb(247, 240, 232);
+}
+
+/* Setting of the backgroung image with before peusduo selector */
+header::before {
+    content: "";
+    background: url('/back1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    width:100%;
+    height: 60vh;
+    opacity: 0.7;
+}
+
+.maincontainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+position: sticky;
+
+
+}
+div img{
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+    position: sticky;
+   
+}
+
+.mainheading{
+    font-size:5.5rem;
+    font-weight: bold;
+    font-family: Verdana;
+    
+}
+.mainheading:hover{
+    font-size:5.7rem;
+    font-weight: bold;
+    font-family: Verdana;
+    color: crimson;
+
+}
+.marqueeimages img{
+    margin: 0px;
+    padding: 1px;
+    width: 400px;
+    height: 300px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+    margin-top: 1rem;
+  
+
+}
+.navigationbar{
+    align-items: center;
+    justify-content: center;
+     margin-top: 2rem;
+    background-color: bisque;
+    border-radius: 4rem;
+    width: 80vw;
+    margin-left: 11rem;
+    position:sticky; top: 0;
+}
+.navbar li a{
+    text-decoration: none;
+    padding:2rem;
+    color:chocolate
+}
+.navbar li {
+
+    text-decoration: none;
+    list-style: none;
+  padding: 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+    
+    
+
+}
+
+.navbar li a:hover{
+    font-size: 1.6rem;
+    color: coral;
+    
+
+}
+
+.maincontainer1{
+    display: flex;
+
+    font-size: 3rem;
+
+}
+.boxx1{
+    margin-left:4rem;
+    background-color: rgb(212, 215, 218);
+    height:120vh;
+    width: 90vw;
+    border-radius: 2rem;
+    margin-bottom: 0px;
+
+
+
+}
+.head{
+   
+    margin-left: 35rem;
+    font-size: 5rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    font-family: fantasy;
+}
+.boxinside1 img{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    width:1000px;
+    margin-left: 15rem;
+    height: 450px;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 6px  slategrey;
+}
+.boxinside1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.boxinside2{
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    margin: 3rem;
+}
+
+
+.endcredits{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding: 0.5em;
+    font-family: 'Sacramento', cursive;
+}
+.endcredits1{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding: 0.5em;
+    font-family: 'Sacramento', cursive;
+        margin-bottom: 1rem;
+}

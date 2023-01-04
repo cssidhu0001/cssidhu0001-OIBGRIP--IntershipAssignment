@@ -1,0 +1,181 @@
+/* Resetting the default margin and padding of the page */
+body {
+    margin:0px;
+    padding:0px;
+    background-color: rgb(247, 240, 232);
+}
+
+/* Setting of the backgroung image with before peusduo selector */
+header::before {
+    content: "";
+    background: url('/back1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    width:100%;
+    height: 60vh;
+    opacity: 0.7;
+}
+
+.maincontainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+position: sticky;
+
+
+}
+div img{
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+    position: sticky;
+   
+}
+
+.mainheading{
+    font-size:5.5rem;
+    font-weight: bold;
+    font-family: Verdana;
+    
+}
+.mainheading:hover{
+    font-size:5.7rem;
+    font-weight: bold;
+    font-family: Verdana;
+    color: crimson;
+
+}
+.marqueeimages img{
+    margin: 0px;
+    padding: 1px;
+    width: 400px;
+    height: 300px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+    margin-top: 1rem;
+  
+
+}
+.navigationbar{
+    align-items: center;
+    justify-content: center;
+     margin-top: 2rem;
+    background-color: bisque;
+    border-radius: 4rem;
+    width: 80vw;
+    margin-left: 11rem;
+    position:sticky; top: 0;
+}
+.navbar li a{
+    text-decoration: none;
+    padding:2rem;
+    color:chocolate
+}
+.navbar li {
+
+    text-decoration: none;
+    list-style: none;
+  padding: 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+    
+    
+
+}
+.navbar li a:hover{
+    font-size: 1.6rem;
+    color: coral;
+    
+
+}
+.mainheading1{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    font-size: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: wheat;
+    height: 80vh;
+    width: 90vw;
+    margin-left: 4rem;
+    font-weight: bold;
+       
+}
+.firstpara{
+    font-size: 2rem;
+    font-style: italic;
+    color:sienna;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.facts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.factbox{
+    background-color: silver;
+    height: 60vh;
+    width: 40vw;
+    margin: 1rem;
+    border:2px solid black;
+    border-radius: 1rem;
+}
+
+.paraheadingfact{
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
+.paradatafact{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    color:rgb(53, 99, 6);
+
+}
+.factbox img{
+    margin-top: 0%;
+}
+
+
+.endcredits{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding: 0.5em;
+    font-family: 'Sacramento', cursive;
+}
+.endcredits1{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding: 0.5em;
+    font-family: 'Sacramento', cursive;
+        margin-bottom: 1rem;
+}
