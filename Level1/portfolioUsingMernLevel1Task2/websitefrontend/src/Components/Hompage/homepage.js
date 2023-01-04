@@ -2,7 +2,7 @@ import React from 'react'
 import './homepage.css';
 import adminImage from "../../Images/CharanjeetSingh.png";
 import About from './about';
-import Resume from '../../resume/ResumeCharanjeetSinghSidhu.pdf'
+import Resume from '../../Components/resume/ResumeCharanjeetSinghSidhu.pdf'
 import Resumepage from './resume';
 import Hobbiespage from './hobbies';
 import Servicespage from './services';
