@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./favicon/favicon.jpg">
-    <link rel="stylesheet" href="calci.css">
-    <script src="calci.js"></script>
+ 
     <title>Online Calculator| Cs framework's</title>
 </head>
 <body>
      <section>
 <div class="mainWrapper mainWrappersize"> 
     <div class="mainWrapper secondWrappersize">
+        <form action="">
         <span class=calcidata id="caclioperation"> </span>
         <div class="operatordiv" id=operatorUsed></div>
     </div>
@@ -22,8 +22,8 @@
     <tr>
         <td class="btnstyle ac"><input type="button" value="AC" onclick="ac()" class="buttonstyle"></td>
         <td class="btnstyle" ><input type="button" value="DEL" onclick="del()" class="buttonstyle"></td>
-        <td class="btnstyle" ><input type="button" value="(" onclick="bracket1()" class="buttonstyle"></td>
-        <td class="btnstyle"><input type="button" value=")" onclick="bracket2()" class="buttonstyle"></td>
+        <td class="btnstyle" ><input type="button" value="(" onclick="valueButton(this);" class="buttonstyle"></td>
+        <td class="btnstyle"><input type="button" value=")" onclick="valueButton(this);" class="buttonstyle"></td>
     </tr>
     <tr>
         <td class="btnstyle"><input type="button" value="Sqrt" onclick="sqrt()" class="buttonstyle"></td>
@@ -33,34 +33,35 @@
         
     </tr>
     <tr>
-        <td><input type="button" value="7" onclick="num7()" class="buttonstyle"></td>
-        <td><input type="button" value="8" onclick="num8()" class="buttonstyle"></td>
-        <td><input type="button" value="9" onclick="num9()" class="buttonstyle"></td>
-        <td rowspan="2" class="btnstyle"><input type="button" value="+" onclick="add()" class="buttonstyle"></td>
+        <td><input type="button" value="7" onclick="valueButton(this);" class="buttonstyle"></td>
+        <td><input type="button" value="8" onclick="valueButton(this);" class="buttonstyle"></td>
+        <td><input type="button" value="9" onclick="valueButton(this);" class="buttonstyle"></td>
+        <td rowspan="2" class="btnstyle"><input type="button" value="+" onclick="valueButton(this);" class="buttonstyle"></td>
     </tr>
     <tr>
-        <td ><input type="button" value="4" onclick="num4()" class="buttonstyle"></td>
-        <td ><input type="button" value="5" onclick="num5()" class="buttonstyle"></td>
-        <td ><input type="button" value="6" onclick="num6()" class="buttonstyle"></td>
+        <td ><input type="button" value="4" onclick="valueButton(this);" class="buttonstyle"></td>
+        <td ><input type="button" value="5" onclick="valueButton(this);" class="buttonstyle"></td>
+        <td ><input type="button" value="6" onclick="valueButton(this);" class="buttonstyle"></td>
         
     </tr>
     <tr>
-        <td ><input type="button" value="1" onclick="num1()" class="buttonstyle"></td>
-        <td ><input type="button" value="2" onclick="num2()" class="buttonstyle"></td>
-        <td ><input type="button" value="3" onclick="num3()" class="buttonstyle"></td>
-        <td class="btnstyle"><input type="button" value="-" onclick="sub()" class="buttonstyle"></td>
+        <td ><input type="button" value="1" onclick="valueButton(this);" class="buttonstyle"></td>
+        <td ><input type="button" value="2" onclick="valueButton(this);" class="buttonstyle"></td>
+        <td ><input type="button" value="3" onclick="valueButton(this);" class="buttonstyle"></td>
+        <td class="btnstyle"><input type="button" value="-" onclick="valueButton(this);" class="buttonstyle"></td>
     </tr>
     <tr>
-        <td ><input type="button" value="00" onclick="num00()" class="buttonstyle"></td>
-        <td ><input type="button" value="0" onclick="num0()" class="buttonstyle"></td>
-        <td ><input type="button" value="." onclick="deci()" class="buttonstyle"></td>
-        <td class="btnstyle" ><input type="button" value="*" onclick="mul()" class="buttonstyle"></td>
+        <td ><input type="button" value="00" onclick="valueButton(this);" class="buttonstyle"></td>
+        <td ><input type="button" value="0" onclick="valueButton(this);" class="buttonstyle"></td>
+        <td ><input type="button" value="." onclick="valueButton(this);" class="buttonstyle"></td>
+        <td class="btnstyle" ><input type="button" value="*" onclick="valueButton(this);" class="buttonstyle"></td>
     </tr>
     <tr>
         <td  class="btnstyle equal " colspan="3"><input type="button" value="=" onclick="calculate()" class="buttonstyle equal "></td>
-        <td class="btnstyle" ><input type="button" value="/" onclick="divide()" class="buttonstyle"></td>
+        <td class="btnstyle" ><input type="button" value="/" onclick="valueButton(this);" class="buttonstyle"></td>
     </tr>
 </table>
+
 <div class="calcibuttons">
 
 </div>  

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calci.css">
+
+    <script src="calci.js"></script>
+    <link rel="shortcut icon" href="./favicon/favicon.jpg" type="image/x-icon">
+    <title>Calculator| Calculate with me</title>
+</head>
+
+<body>
+    <div class="mainCalculatorContainer">
+        <div class="containerCalciContainer">
+            <form class="calculatorform" name="calculatorform">
+                <div class="outputInput">
+                    <input type="text" name="outputInput" id="caclioperation" class="inputBox" readonly>
+                </div>
+                <div class="mainBtnCon">
+                    <table>
+                        <div class="firstRowCont">
+                            <tr>
+
+                                <td><input type="button" value="AC" onclick="ac()" class="buttonstyle bg-color2"> </td>
+                                <td><input type="button" value="DEL" onclick="del()"
+                                        class="buttonstyle fontSize bg-color1"></td>
+                                <td><input type="button" value="(" onclick="valueButton(this);"
+                                        class="buttonstyle bg-color1"></td>
+                                <td><input type="button" value=")" onclick="valueButton(this);"
+                                        class="buttonstyle bg-color"></td>
+                            </tr>
+                        </div>
+                        <div class="secondRowCont">
+                            <tr>
+
+                                <td><input type="button" value="Sqrt" onclick="sqrt()"
+                                        class="buttonstyle fontSize bg-color1"> </td>
+                                <td><input type="button" value="Squ" onclick="square()"
+                                        class="buttonstyle fontSize bg-color1"></td>
+                                <td><input type="button" value="Cube" onclick="cube()"
+                                        class="buttonstyle fontSize bg-color1"></td>
+                                <td><input type="button" value="%" onclick="valueButton(this)"
+                                        class="buttonstyle bg-color"></td>
+                            </tr>
+                        </div>
+                        <div class="thirdRowCont">
+                            <tr>
+
+                                <td><input type="button" value="7" onclick="valueButton(this);" class="buttonstyle">
+                                </td>
+                                <td><input type="button" value="8" onclick="valueButton(this);" class="buttonstyle">
+                                </td>
+                                <td><input type="button" value="9" onclick="valueButton(this);" class="buttonstyle">
+                                </td>
+                                <td rowspan="2"> <input type="button" value="+" onclick="valueButton(this);"
+                                        class="buttonstyle heightplus fontSizeOp bg-color"></td>
+                            </tr>
+                        </div>
+                        <div class="fourthRowCont">
+                            <tr>
+                                <td><input type="button" value="4" onclick="valueButton(this);" class="buttonstyle">
+                                </td>
+                                <td><input type="button" value="5" onclick="valueButton(this);" class="buttonstyle">
+                                </td>
+                                <td><input type="button" value="6" onclick="valueButton(this);" class="buttonstyle">
+                                </td>
+                            </tr>
+
+                        </div>
+                        <div class="fifthRowCont">
+                            <tr>
+
+                                <td><input type="button" value="1" onclick="valueButton(this);" class="buttonstyle">
+                                </td>
+                                <td><input type="button" value="2" onclick="valueButton(this);" class="buttonstyle">
+                                </td>
+                                <td><input type="button" value="3" onclick="valueButton(this);" class="buttonstyle">
+                                </td>
+                                <td><input type="button" value="-" onclick="valueButton(this);"
+                                        class="buttonstyle fontSizeOp bg-color"></td>
+                            </tr>
+                        </div>
+                        <div class="sixthRowCont">
+                            <tr>
+
+                                <td> <input type="button" value="00" onclick="valueButton(this);" class="buttonstyle">
+                                </td>
+                                <td> <input type="button" value="0" onclick="valueButton(this);" class="buttonstyle">
+                                </td>
+                                <td> <input type="button" value="." onclick="valueButton(this);"
+                                        class="buttonstyle fontSizeOp"></td>
+                                <td> <input type="button" value="*" onclick="valueButton(this);"
+                                        class="buttonstyle fontSizeOp bg-color"></td>
+                            </tr>
+                        </div>
+                        <div class="seventhRowCont">
+                            <tr>
+
+                                <td colspan="3"> <input type="button" value="=" onclick="calculate();"
+                                        class="buttonstyle widthequal fontSizeOp bg-color"> </td>
+                                <td> <input type="button" value="/" onclick="valueButton(this);"
+                                        class="buttonstyle fontSizeOp bg-color"></td>
+                            </tr>
+
+                        </div>
+                    </table>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

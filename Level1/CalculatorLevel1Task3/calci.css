@@ -1,83 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&family=Ubuntu&display=swap');
-   
-   *{margin: 0px;
-    padding: 0px;}
 
-    section{
-        height: 100vh;
-    background-image: linear-gradient(rgb(230, 92, 115),rgb(45, 150, 192));
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainCalculatorContainer {
     display: flex;
+    background-color: rgb(53, 53, 53);
     justify-content: center;
-    align-items:center;
-    }
-    .mainWrappersize{
-        height: 90vh;
-        width: 30vw;
-    position: relative;
-    }
-    .mainWrapper{
-        background-color: transparent;
-        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.5);
-        border-radius: 1rem;  
-    }
-    .secondWrappersize{
-        display: flex;
-        justify-content: right;
-        align-items:center;
-        height: 6.5rem;
-        background-color: rgb(218, 96, 116);
-        border-radius: 1rem 1rem 0rem 0rem;
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) ;
-        font-family: 'Orbitron', sans-serif;
-    }
-    .calcidata{
-        text-align: right;
-    font-size: 3.5rem;
-    margin: .5rem;
+    align-items: center;
+    height: 100vh;
+
+
+
 
 }
 
+.containerCalciContainer {
+    display: flex;
+    height: 93vh;
+    justify-content: center;
+    align-items: center;
+    width: 23vmax;
+    background-color: rgb(19, 19, 19);
+    border-radius: 2vmax;
+    box-shadow: 0 0 2vmax black;
+}
 
-    table{        
-font-size: 2rem;
-    }
-    table tr{
-padding: 1rem;
-    }
-    table tr td {    
-        text-align:center;   
-background-color: rgba(206, 206, 206, 0.863);
-border-radius: .8rem;
+.inputBox {
+    height: 8vmax;
+    width: 21.8vmax;
+    background-color: rgb(221, 221, 221);
+    border-radius: 2vmax 2vmax 0 0;
+    outline: none;
+    border: none;
+    text-align: right;
+    font-size: 5vmax;
+    word-wrap: normal;
+    padding: .5vmax;
+}
 
-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.5);
-    }
-    .btnstyle{
-        background-color: rgba(252, 118, 118, 0.863);
-    }
+.mainBtnCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vmax;
+}
 
-    .ac{
-        background-color: rgb(250, 52, 52);
-        font-size: 3rem;
-    }
-    .buttonstyle{
-        font-weight:bold;
-        background-color: transparent;
-        border:none;
-        font-family: "ubuntu",sans-serif;
-        font-size: 2rem;
-        font-weight:700;
-        padding: .6rem;
-        width: 6rem;
-    }
-    .equal{
-        background-color: rgb(17, 88, 240);
-        font-size: 3rem;
-        
-    }
+.buttonstyle {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    display: flex;
+    height: 4vmax;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 4.1vmax;
+    width: 4.1vmax;
+    border-radius: 50%;
+    margin: .3vmax;
+    font-size: 1vmax;
+    border: none;
+    color: white;
+    font-size: 2.2vmax;
+    background-color: rgb(59, 59, 59);
 
-    .operatordiv{
-        font-size: 1.rem;
-        margin-top: 4.5rem;
-        margin-right: .5rem;
-        color: rgb(34, 34, 34);
-    }
+
+}
+
+.fontSize {
+    font-size: 1.5vmax;
+}
+
+.fontSizeOp {
+    font-size: 3vmax;
+
+
+}
+
+.heightplus {
+    height: 9vmax;
+    border-radius: 3vmax;
+}
+
+.widthequal {
+    width: 13.5vmax;
+    border-radius: 3vmax;
+}
+
+.bg-color {
+
+    background-color: rgb(232, 147, 29);
+
+}
+
+.bg-color1 {
+    color: black;
+    background-color: rgb(186, 186, 186);
+
+}
+
+.bg-color2 {
+
+    background-color: rgb(219, 41, 41);
+
+}
